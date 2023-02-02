@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Disney+</title>
     <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="shortcut icon" href="./dist/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header class="header">
@@ -168,7 +169,10 @@
         </div>
     </section>
     <section class="image-text-section image-text-section--image-full-width">
-        <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
+        <picture>
+            <source media="(max-width:768px)" srcset="./dist/images/fundo_rei_leao_celular.png">
+            <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
+        </picture>
         <div class="image-text-section__text__container image-text-section--image-full-width__text__container">
             <h2 class="title">Baixe filmes e séries</h2>
             <p class="text--big">
