@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 
 
-    //Seção de atrações/Programação das abas
+    //Seção de atrações/Programação das abas//
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function(botao){
             const abaAlvo = botao.target.dataset.tabButton;
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     }
 
-    //Seção FAQ/Accordion
+    //Seção FAQ/Accordion//
     for (let i=0; i < faq.length; i++) {
         faq[i].addEventListener('click', abreFecha)
     }
